@@ -185,7 +185,7 @@ window.onload = function() {
 			navigator.geolocation.getCurrentPosition(successGeoData, failGeoData, {
 				maximumAge : 60000,
 				enableHighAccuracy : true,
-				timeout : 5000
+				timeout : 10000
 			});
 		} else {
 			mapContainer.innerHTML ='Your browser does not support geolocation';
